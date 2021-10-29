@@ -1,5 +1,5 @@
 # Final Project Propsal
-EZScrumEZGo: Final project proposal
+EZScrumEZGo: Final Project Proposal
 
 Names: Diya, Paula, 
 
