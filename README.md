@@ -1,7 +1,7 @@
-# Final Project Propsal
+# Final Project Proposal
 EZScrumEZGo: Final Project Proposal
 
-Names: Diya, Paula, Steven
+Names: Diya, Paula, Steven, Mariela
 
 Description:
 
