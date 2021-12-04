@@ -15,7 +15,7 @@
 
   <h2>Project Name: EZMessage</h2>
   <p>Team Members: Adrian, Paula, Steve, Diya, Mariela</p>
-  <p>Last Update: 2021-11-09</p>
+  <p>Last Update: 2021-12-04</p>
 
   <h3>Application Overview:</h3>
   <p1>
@@ -24,16 +24,18 @@
     messages that will show a time stamp of when it was sent.<br>
     Messages that a user will be able to send will include emojis. <br>
     A user will be able to create set times to send premade messages<br>
-    and a user will be able to delete previously sent messages. <br>
+    <s>and a user will be able to delete previously sent messages. </s><br>
   </p1>
 
   <h3>Technical Overview</h3>
     <li>Languages: for this project the main languages is JavaScript, it is <br>
-      being used to to had the server and the front end because of react. <br>
+      being used to to had the node server with express <br>
       HTML and CSS is being used to format the webpage. </li>
     <li>Libraries/modules: node_modules are being used along with express <br>
-      to handle the web routes </li>
-    <li>Hosting is being handled by Azure which is a Microsoft cloud hosting <br>
+      to handle the web routes, socket.io-client is being user to talk to the <br>
+      socket server to texting, other things like the google firebase and the emoji <br>
+      have links in the html to get files over the CDN </li>
+    <li>Hosting of the main page and the socket.io-server is being handled by Azure which is a Microsoft cloud hosting <br>
       provider, this project created a web app in Aruze and was deployed <br>
       using github actions  </li>
 
@@ -50,13 +52,14 @@
 
 
   <h3>Basic Technical Features that Demonstrates Things Learned in Class</h3>
-  <li>Using Azure as a cloud hosting option, with github </li>
-  <li>Node.js with express.js as middleware, handling the html requests </li>
-  <li>Understanding Saas and agile by implementing those concepts into this project </li>
+    <li>Using Azure as a cloud hosting option, with github </li>
+    <li>Node.js with express.js as middleware, handling the html requests </li>
+    <li>Understanding Saas and agile by implementing those concepts into this project </li>
 
   <h3>Advanced Technical Features</h3>
-    <li>Learning and using React</li>
-    <li>Using the API socket.io to deal with communication </li>
+    <li>Using google service , such as google firebase to halde auth.</li>
+    <li>Using the API socket.io to deal with communication with client and server</li>
+    <li>Using a exsiting javascript emojis moudle project</li>
 
 
   <br>
